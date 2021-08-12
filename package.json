@@ -1,0 +1,34 @@
+{
+  "name": "sql-inject-sample",
+  "version": "1.0.0",
+  "description": "simple web application to demonstrate a sql inject problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect app.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubatubamay/sql-inject-sample.git"
+  },
+  "keywords": [
+    "sql",
+    "inject"
+  ],
+  "author": "ubatubamay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubatubamay/sql-inject-sample/issues"
+  },
+  "homepage": "https://github.com/ubatubamay/sql-inject-sample#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cookie-parser": "~1.4.5",
+    "morgan": "~1.10.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
